@@ -16,7 +16,7 @@ bundle install
 
 These examples use OpenRouter API for LLM calls. You will need to set up an OpenRouter API key by creating a `.env` file using the `.env.example` as a template.
 
-If you would like to use a different LLM provider, you can modify the configuration in the `main.rb` file to use a different LLM provider along with the model of your choice as well. In this example, the `meta-llama/llama-3.2-3b-instruct` model is used.
+If you would like to use a different LLM provider, you can modify the configuration in the `main.rb` file to use a different LLM provider along with the model of your choice as well. In this example, the `openai/gpt-4.1-mini` model is used.
 
 The LLM calls are made using the [RubyLLM](https://github.com/crmne/ruby_llm) gem. To see the complete list of models, you can go [here](https://rubyllm.com/guides/available-models).
 
